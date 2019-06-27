@@ -21,7 +21,7 @@ html, body{
 
 }
 
-p, label{
+p, label, nav{
     font-size: 14px;
 }
 
@@ -34,6 +34,7 @@ nav{
     background-color: var(--green-color);
     padding: var(--space);
     color: var(--black-color);
+
 }
 
 nav ul{
@@ -103,7 +104,7 @@ nav li a:hover {
 
 /* Estilos sección Features */
 .features{
-    padding: 15%;
+    padding: 10%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -111,7 +112,8 @@ nav li a:hover {
 .feature{
     padding: var(--space);
     /* box-shadow: var(--box); */
-    max-width: 25%;            /*cambiar el max-width en % por algo responsive*/
+   /* max-width: ;            cambiar el max-width en % por algo responsive*/
+
 }
 
 .feature .feature_content{
@@ -196,6 +198,10 @@ footer p{
     cursor: pointer;
 }
 
+footer a{
+    color: var(--green-color);
+}
+
 
 /* Estilos de Producto */
 
@@ -218,4 +224,10 @@ footer p{
 }
 
 
+.faq-hero{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 10%;
+    text-align: center;
+}
 
