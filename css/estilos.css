@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+/* ---------------Variables */
+:root{
+    --green-color:#7ACC2D;
+    --white-color: #ffffff;
+    --black-color: #313337;
+    /* Tipografia */
+    --normal: 14px;;
+    /* Espaciado */
+    --space: 15px;
+    /* Box Shadow */
+    --box: 0 0 4px #a49d9d;
+}
+/* ---------------Variables */
+
+html, body{
+    padding: 0px;
+    margin: 0px;
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+p, label{
+    font-size: 14px;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--green-color);
+    padding: var(--space);
+    color: var(--black-color);
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left: var(--space);
+    list-style: none;
+}
+
+nav li a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: gray;
+}
+
+/* Estilos  sección Main */
+.main-section{
+    padding: 15%;
+    text-align: center;
+}
+
+/* Estilos Sección Products */
+.products{
+    background-image: url(../images/curve.webp);
+    background-size: cover;
+    background-position: center top;
+    height: 50px;
+    padding: 20%;
+    display: flex;
+    /* max-height:  */
+}
+
+.product{
+    padding: 10px;
+    margin-top: -200px;
+}
+
+.product .content{
+    background-color: var(--white-color);
+    padding: var(--space);
+    box-shadow: var(--box);
+}
+
+.image_content{
+    text-align: center;
+}
+
+.main_button{
+    background-color: var(--green-color);
+    color: var(--white-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: var(--normal);
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover{
+    background-color: #50871b;
+}
+
+/* Estilos sección Features */
+.features{
+    padding: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feature{
+    padding: var(--space);
+    /* box-shadow: var(--box); */
+    max-width: 25%;            /*cambiar el max-width en % por algo responsive*/
+}
+
+.feature .feature_content{
+    background-color: var(--white-color);
+    padding: var(--space);
+    box-shadow: var(--box);
+}
+
+/* Estilos Menciones */
+.menciones{
+    padding: 5%;
+    box-shadow: var(--box);
+}
+.testimonials_head{
+    /* display: block; */
+    /* width: 100vw; */
+    text-align: center;
+}
+.testimonials{
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial{
+    padding: var(--space);
+     
+}
+
+.testimonial .testimonial_content{
+    /* padding: var(--space); */
+    box-shadow: var(--box);
+}
+
+/* .testimonial .testimonial_content .image_content{
+    background-image: url(../images//satya.jpg);
+    background-size: cover;
+    background-position: center top;
+    min-height: 150px;
+} */
+
+.testimonial .testimonial_content .image_content img{
+    height: auto;
+    width: 100%;
+}
+
+.testimonial_description{
+    padding: var(--space);
+}
+
+
+
+/* ----------------------------------------------------- PAGO */
+.modulo_pago{
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--normal);
+}
+
+.data{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid var(--black-color);
+}
+
+
+/* Estilos del Footer */
+footer{
+    padding: 10px;
+    height: 50px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    cursor: pointer;
+}
+
+
+/* Estilos de Producto */
+
+.hero h1{
+    margin-top: 25px;
+    padding: 50px 0;
+}
+
+.product_display{
+    padding: 50px 0px;
+}
+.product_image{
+    display: flex;
+    justify-content: center;
+}
+
+.product_description{
+    display: flex;
+    align-items: center;
+}
+
+
+

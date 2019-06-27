@@ -1,0 +1,33 @@
+@media (max-width: 600px){
+    .main-section{
+        padding: 5%;
+        min-height: 40vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .products{
+        display: inherit;
+        height: auto;
+        padding: 15%;
+    }
+
+    .product{
+        margin: auto;
+    }
+
+    
+    .features, .testimonials{
+        display: inherit;
+        padding: 5%;
+    }
+
+    .feature{
+        max-width: 100%;
+
+    }
+    .testimonials_head{
+        padding: 5%;
+    }
+
+}
